@@ -48,13 +48,9 @@ Do not add AWS keys directly inside the Python script or commit them to GitHub.
 Run with a region:
 
 ```powershell
-python aws_resource_count.py --region us-east-1
+python aws_resource_count.py --region <region>
 ```
 
-Run with a profile:
-
-```powershell
-python aws_resource_count.py --region <region>
 ```
 
 ## Example Output
